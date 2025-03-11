@@ -12,8 +12,11 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata = {
-  title: "Admission Chatbot",
-  description: "Developed by @RawAtCode",
+  title: "GGSIPU Admission Chatbot",
+  description: "Chat app for the admission process at GGSIPU.",
+  icons: {
+    icon: "/header-icon.ico", // Favicon
+  },
 };
 
 export default function RootLayout({ children }) {
